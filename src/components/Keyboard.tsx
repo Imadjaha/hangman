@@ -50,6 +50,7 @@ export default function Keyboard(
   { disabled = false, activeLetters, inactiveLetters, addGuessedLetter }: KeyboardProps
 ) {
   return (
+    
     <div
       style={{
         display: "grid",

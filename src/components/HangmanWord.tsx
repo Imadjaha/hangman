@@ -23,6 +23,7 @@ export default function HangmanWord( {
         textTransform: "uppercase",
       }}
     >
+      
       {wordToGuess.split("").map((letter, index) => (
         <span style={{ borderBottom: ".1em solid black" }} key={index}>
           <span
@@ -36,6 +37,7 @@ export default function HangmanWord( {
             }}
           >
             {letter}
+           
           </span>
         </span>
       ))}
